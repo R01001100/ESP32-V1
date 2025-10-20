@@ -1,3 +1,4 @@
 *.xml
 *.dsn
 *backups/*
+fp-info-cache
