@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CP2102N-A01-GQFN28")(type "KiCad")(uri "${KIPRJMOD}/CP2102N-A01-GQFN28/CP2102N-A01-GQFN28.pretty")(options "")(descr ""))
+  (lib (name "B3S-1000P")(type "KiCad")(uri "${KIPRJMOD}/B3S-1000P/B3S-1000P.pretty")(options "")(descr ""))
+  (lib (name "MMSS8050-H-TP")(type "KiCad")(uri "${KIPRJMOD}/MMSS8050-H-TP/MMSS8050-H-TP.pretty")(options "")(descr ""))
+  (lib (name "ESP32-WROOM-32")(type "KiCad")(uri "${KIPRJMOD}/ESP32-WROOM-32/ESP32-WROOM-32.pretty")(options "")(descr ""))
+  (lib (name "Connector_USB")(type "KiCad")(uri "${KIPRJMOD}/USB_Micro-AB_Molex_47590-0001/USB_Micro-AB_Molex_47590-0001.pretty")(options "")(descr ""))
+)
