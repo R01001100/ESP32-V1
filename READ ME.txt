@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ESP32 Schematic Note: CP2102N-A01-GQFN28 Unconnected Pins
 
 Issue Description:
@@ -34,3 +35,40 @@ Successful operation of USB-to-serial communication
 Design Files
 
 This schematic follows industry-standard practices for ESP32 designs. The unconnected pins are a conscious design decision to simplify the circuit while maintaining full functionality for typical use cases.
+=======
+ESP32 Schematic Note: CP2102N-A01-GQFN28 Unconnected Pins
+
+Issue Description:
+This repository contains an ESP32 schematic that follows Espressif's reference design. A common "issue" appears with the CP2102N-A01-GQFN28 USB-to-UART bridge IC where several pins show warnings for "Label not connected to anything".
+
+
+Affected Pins:
+
+The following pins on the CP2102N-A01-GQFN28 are intentionally left unconnected:
+- CTS (Clear To Send)
+- DSR (Data Set Ready)
+- DCD (Data Carrier Detect)
+- RI (Ring Indicator)
+
+
+Important Note:
+This is not a design error or schematic bug. This is the correct and intended configuration as specified in Espressif's official ESP32 reference designs.
+
+
+Recommended Action:
+- Ignore schematic warnings/errors about these unconnected pins
+- Do not attempt to "fix" these connections
+- The design will function perfectly despite these warnings
+
+
+Verification:
+
+You can verify this is correct by checking:
+- Espressif's official ESP32 development board schematics (DevKitC, etc.)
+- CP2102N datasheet application notes
+- Successful operation of USB-to-serial communication
+
+
+Design Files:
+This schematic follows industry-standard practices for ESP32 designs. The unconnected pins are a conscious design decision to simplify the circuit while maintaining full functionality for typical use cases.
+>>>>>>> 3a0b589bfddbb4a38c1c78cb465be0e579b721fb
